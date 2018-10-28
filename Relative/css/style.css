@@ -5,14 +5,17 @@ body {
 div.container {
 	margin: 0 auto;
 	width: 800px;
+	position: relative;
 }
 
 div.outer {
-	width: 200px;
-	height: 200px;
+	/* width: 200px; */
+	/* height: 200px; */
 	border: 10px dotted red;
 	display: inline-block;
 	margin: 10px;
+	position: relative;
+
 }
 
 div.inner {
@@ -21,4 +24,35 @@ div.inner {
 	background-image: url('https://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/iStock-177369626_1.jpg?itok=DyZrFgNX&resize=1100x1100');
 	background-size: cover;
 	background-position: center;
+	position: relative;
+}
+
+#left { 
+	border-left: 0;
+}
+
+#top {
+	border-top: 0;
+
+}
+
+#right {
+	border-right: 0;
+	border-bottom: 0;
+}
+
+.left {
+	width: 210px;
+	height: 200px;
+}
+
+.top {
+	width: 200px;
+	height: 210px;
+}
+
+.right {
+	width: 200px;
+	height: 200px;
+	padding: 10px 0 0 10px;
 }

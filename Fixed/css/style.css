@@ -18,16 +18,35 @@ body {
 
 .arrowUp a, .arrowDown a {
 	color: red;
+	position: fixed;
+	left: 1800px;
 }
 
 .facebook a {
 	color: #3B5998;
+	position: fixed;
+	top: 450px;
+	left: 50px;
 }
 
 .instagram a {
 	color: #fb3958;
+	position: fixed;
+	top: 600px;
+	left: 50px;
+
 }
 
 .arrowUp a:hover, .arrowDown a:hover, .facebook a:hover, .instagram a:hover{
 	color: blue;
 }
+
+ .up {
+ 	position: fixed;
+ 	top: 450px;
+ }
+
+ .down {
+ 	position: fixed;
+ 	top: 600px;
+ }
